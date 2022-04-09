@@ -7,7 +7,7 @@
 		 .mypage-header{
           display: flex;
           height: 150px;
-          background-color: #948465;
+          background-color: #ac9e89;
         }
         .mypage-header-space{
           flex-grow: 2;
@@ -16,7 +16,6 @@
           flex-grow: 7.5;
           vertical-align: middle;
           display: flex;
-          margin-top: 20px;
         }
         .mypage-header-profile>a{
           margin-right: 15px;
@@ -36,14 +35,16 @@
           padding: 27px;
         }
         
-        .mypage-content-title{
-          border-bottom: solid 2px rgb(167, 167, 167);
-        }
+		.mypage-content-title {
+		  margin-top: 3px;
+	      height: 30px;
+	      font-family: ns-bold;
+	      border-bottom: solid 2px rgb(167, 167, 167);
+		}
         .left-menu{
-            margin-top: 60px;
+            margin-top: 50px;
             flex-grow: 1;
             color: rgb(51, 51, 51);
-            width: 10%;
       
         }
         .left-menu>ul{
@@ -66,9 +67,6 @@
             color: rgb(172, 158, 137);
             font-size: 17px;
         }
-        .mypage-content-title{
-        	margin-top: 10px;
-        }
 
 </style>
 
@@ -77,8 +75,6 @@
 <title>Insert title here</title>
  -->
 </head>
-
-
         <header>
           <div class="mypage-header">
             <div class="mypage-header-space"></div>
@@ -89,7 +85,7 @@
         </header>
         <div class="left-menu">
           <ul>
-              <li><a href="#">예약관리</a></li>
+              <li><a href="/bookCheck.do">예약관리(테스트중)</a></li>
               <li><a href="#">회원관리</a></li>
               <li><a href="#">객실관리</a></li>
               <li><a href="#">공지사항</a></li>
